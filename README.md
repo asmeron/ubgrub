@@ -1,2 +1,2 @@
 # ubgrub
-Theme grub2 for UBLinux
+Theme Grub2 from UBLinux
