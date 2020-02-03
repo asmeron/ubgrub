@@ -24,11 +24,11 @@ terminal-font: "Terminus Regular 14"
 	item_color = "#E6F3FF"
 	selected_item_font = "Terminus Bold 14"
 	selected_item_color = "#31BAFD"
-	icon_width = 16
-	icon_height = 16
+	icon_width = 20
+	icon_height = 20
 	item_height = 33
 	item_padding = 20
-	item_icon_space = 0
+	item_icon_space = 6
 	item_spacing = 1
 	menu_pixmap_style = "boot_menu2_*.png"
 	selected_item_pixmap_style = "highlight_*.png"
