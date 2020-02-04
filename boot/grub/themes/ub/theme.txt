@@ -9,7 +9,7 @@ message-font: "Terminus Regular 14"
 message-color: "#E6F3FF"
 message-bg-color: "#f6f6f6"
 desktop-color: "#212121"
-desktop-image: "bg.png"
+desktop-image: "bg_1024x768.png"
 #terminal-box: "menu_bkg_*.png"
 terminal-box: "terminal_box_*.png"
 terminal-font: "Terminus Regular 14"
@@ -24,11 +24,11 @@ terminal-font: "Terminus Regular 14"
 	item_color = "#E6F3FF"
 	selected_item_font = "Terminus Bold 14"
 	selected_item_color = "#31BAFD"
-	icon_width = 16
-	icon_height = 16
+	icon_width = 20
+	icon_height = 20
 	item_height = 33
 	item_padding = 20
-	item_icon_space = 0
+	item_icon_space = 6
 	item_spacing = 1
 	menu_pixmap_style = "boot_menu2_*.png"
 	selected_item_pixmap_style = "highlight_*.png"
