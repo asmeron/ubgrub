@@ -23,7 +23,7 @@ terminal-font: "Terminus Regular 14"
 	item_font = "Terminus Regular 14"
 	item_color = "#E6F3FF"
 	selected_item_font = "Terminus Bold 14"
-	selected_item_color = "#31BAFD"
+	selected_item_color = "#2BD851"
 	icon_width = 20
 	icon_height = 20
 	item_height = 33
@@ -74,7 +74,7 @@ terminal-font: "Terminus Regular 14"
 	height = 24
 	show_text = true
 	font = "Terminus Regular 14"
-	text_color = "#f2f2f2"
+	text_color = "#E6F3FF"
 	align = "center"
 	text = "@TIMEOUT_NOTIFICATION_LONG@"
 	bar_style = "progress_bar2_*.png"
@@ -85,13 +85,13 @@ terminal-font: "Terminus Regular 14"
 	top = 100%-35
 	left = 14%
 	+ label {text = "↑↓: " font = "Terminus Bold 14" color = "#E6F3FF" align = "left"}
-	+ label {text = "Выбор     " font = "Terminus Bold 14" color = "#2B9ED8" align = "left"}
+	+ label {text = "Выбор     " font = "Terminus Bold 14" color = "#2BD851" align = "left"}
 	+ label {text = "Enter: " font = "Terminus Bold 14" color = "#E6F3FF" align = "left"}
-	+ label {text = "Загрузить     " font = "Terminus Bold 14" color = "#2B9ED8" align = "left"}
+	+ label {text = "Загрузить     " font = "Terminus Bold 14" color = "#2BD851" align = "left"}
 	+ label {text = "E: " font = "Terminus Bold 14" color = "#E6F3FF" align = "left"}
-	+ label {text = "Редактировать     " font = "Terminus Bold 14" color = "#2B9ED8" align = "left"}
+	+ label {text = "Редактировать     " font = "Terminus Bold 14" color = "#2BD851" align = "left"}
 	+ label {text = "C: " font = "Terminus Bold 14" color = "#E6F3FF" align = "left"}
-	+ label {text = "Командная строка      " font = "Terminus Bold 14" color = "#2B9ED8" align = "left"}
+	+ label {text = "Командная строка      " font = "Terminus Bold 14" color = "#2BD851" align = "left"}
 	+ label {text = "Esc: " font = "Terminus Bold 14" color = "#E6F3FF" align = "left"}
-	+ label {text = "Возврат" font = "Terminus Bold 14" color = "#2B9ED8" align = "left"}
+	+ label {text = "Возврат" font = "Terminus Bold 14" color = "#2BD851" align = "left"}
 }
