@@ -271,6 +271,7 @@ EOF
 set theme=(\$root)`make_system_path_relative_to_its_root $GRUB_THEME`
 export theme
 EOF
+### Edit by MMX166
     if [ "x$GRUB_BACKGROUND" != x ] && [ -f "$GRUB_BACKGROUND" ] \
 	    && is_path_readable_by_grub "$GRUB_BACKGROUND"; then
 	gettext_printf "Found background: %s\n" "$GRUB_BACKGROUND" >&2
@@ -286,8 +287,7 @@ insmod $reader
 background_image -m stretch `make_system_path_relative_to_its_root "$GRUB_BACKGROUND"`
 EOF
     fi
-#    elif [ "x$GRUB_BACKGROUND" != x ] && [ -f "$GRUB_BACKGROUND" ] \
-#	    && is_path_readable_by_grub "$GRUB_BACKGROUND"; then
+### Edit by MMX166
      elif [ "x$GRUB_BACKGROUND" != x ] && [ -f "$GRUB_BACKGROUND" ] \
 	    && is_path_readable_by_grub "$GRUB_BACKGROUND"; then
 	gettext_printf "Found background: %s\n" "$GRUB_BACKGROUND" >&2
