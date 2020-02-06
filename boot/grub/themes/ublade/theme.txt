@@ -54,8 +54,8 @@ terminal-font: "Terminus Regular 14"
 # Show a styled horizontal progress bar
 + progress_bar {
 	id = "__timeout__"
-	left = 50%-278
-	width = 54%
+	left = 50%-276
+	width = 552
 	top = 100%-140
 	height = 31
 	show_text = false
@@ -74,7 +74,7 @@ terminal-font: "Terminus Regular 14"
 	height = 24
 	show_text = true
 	font = "Terminus Regular 14"
-	text_color = "#f2f2f2"
+	text_color = "#E6F3FF"
 	align = "center"
 	text = "@TIMEOUT_NOTIFICATION_LONG@"
 	bar_style = "progress_bar2_*.png"
@@ -83,7 +83,7 @@ terminal-font: "Terminus Regular 14"
 # Show an informational message.
 + hbox {
 	top = 100%-35
-	left = 14%
+	left = 50%-374
 	+ label {text = "↑↓: " font = "Terminus Bold 14" color = "#E6F3FF" align = "left"}
 	+ label {text = "Выбор     " font = "Terminus Bold 14" color = "#2B9ED8" align = "left"}
 	+ label {text = "Enter: " font = "Terminus Bold 14" color = "#E6F3FF" align = "left"}
